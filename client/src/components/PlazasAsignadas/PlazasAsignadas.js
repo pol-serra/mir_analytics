@@ -28,6 +28,7 @@ function PlazasAsignadas() {
           new Set(xlsxData.map((item) => item.Especialidad))
         );
         setEspecialidades(uniqueEspecialidades);
+        console.log(uniqueEspecialidades);
       } catch (error) {
         console.error('Error al cargar el archivo XLSX:', error);
       }
