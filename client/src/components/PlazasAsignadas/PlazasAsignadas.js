@@ -10,7 +10,7 @@ function PlazasAsignadas() {
   const [especialidades, setEspecialidades] = useState([]);
 
   useEffect(() => {
-    const filePath = '/Data/plazas_2023.xlsx'; // Ruta relativa a la carpeta "public"
+    const filePath = 'Data/plazas_2023.xlsx'; 
 
     const fetchData = async () => {
       try {
