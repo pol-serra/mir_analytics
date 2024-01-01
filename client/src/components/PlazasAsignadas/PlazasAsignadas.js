@@ -9,7 +9,7 @@ function PlazasAsignadas() {
   const [especialidades, setEspecialidades] = useState([]);
 
   useEffect(() => {
-    const filePath = 'Data/plazas_2023.json'; 
+    const filePath = `${process.env.PUBLIC_URL}/Data/plazas_2023.json`;
 
     const fetchData = async () => {
       try {
