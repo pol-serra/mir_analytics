@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mir_analytics/static/css/main.c28c3ea4.css",
-    "main.js": "/mir_analytics/static/js/main.f8bfe371.js",
+    "main.js": "/mir_analytics/static/js/main.8a4b0b12.js",
     "static/js/787.c4e7f8f9.chunk.js": "/mir_analytics/static/js/787.c4e7f8f9.chunk.js",
     "index.html": "/mir_analytics/index.html",
     "main.c28c3ea4.css.map": "/mir_analytics/static/css/main.c28c3ea4.css.map",
-    "main.f8bfe371.js.map": "/mir_analytics/static/js/main.f8bfe371.js.map",
+    "main.8a4b0b12.js.map": "/mir_analytics/static/js/main.8a4b0b12.js.map",
     "787.c4e7f8f9.chunk.js.map": "/mir_analytics/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c28c3ea4.css",
-    "static/js/main.f8bfe371.js"
+    "static/js/main.8a4b0b12.js"
   ]
 }
