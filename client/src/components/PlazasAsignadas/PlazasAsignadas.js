@@ -9,7 +9,7 @@ function PlazasAsignadas() {
   const [especialidades, setEspecialidades] = useState([]);
 
   useEffect(() => {
-    const filePath = 'Data/plazas_2023.json'; // Cambia a la ruta de tu archivo JSON
+    const filePath = 'Data/plazas_2023.json'; 
 
     const fetchData = async () => {
       try {
@@ -17,7 +17,6 @@ function PlazasAsignadas() {
         const jsonData = await response.json();
         setData(jsonData);
 
-        // Obtener una lista de especialidades únicas
         const uniqueEspecialidades = Array.from(
           new Set(jsonData.map((item) => item.Especialidad))
         );
