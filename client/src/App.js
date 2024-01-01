@@ -5,8 +5,9 @@ import PlazasAsignadas from './components/PlazasAsignadas/PlazasAsignadas';
 
 function App() {
   return (
-    <h1>HELLO</h1>,
+
     <div>
+      <h1>HELLO</h1>
       <PlazasAsignadas />
     </div>
 
